@@ -9,7 +9,7 @@ addr1qyefcumxnnrtec6cp7nfkxd6kl67d2j678wpcsuzykvgu5jcuc5a5nvqfzryj98vf0dk46e5k6s
 
 - Screenshot of wallet creation:
 
-![Wallet](assets/wallet.png)
+![Wallet](../assets/wallet.png)
 
 ## Task 2: Get testnet ADA (faucet)
 

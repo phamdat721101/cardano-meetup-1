@@ -262,17 +262,17 @@ cd ~/hydra-exercise
 
 # Generate keys for Alice (Node 1)
 docker run --rm -v $(pwd)/node1/keys:/keys \
-  ghcr.io/input-output-hk/hydra-node:latest \
+  ghcr.io/input-output-hk/hydra-node:0.15.0 \
   gen-hydra-key --output-file /keys/hydra
 
 # Generate keys for Bob (Node 2)
 docker run --rm -v $(pwd)/node2/keys:/keys \
-  ghcr.io/input-output-hk/hydra-node:latest \
+  ghcr.io/input-output-hk/hydra-node:0.15.0 \
   gen-hydra-key --output-file /keys/hydra
 
 # Generate keys for Carol (Node 3)
 docker run --rm -v $(pwd)/node3/keys:/keys \
-  ghcr.io/input-output-hk/hydra-node:latest \
+  ghcr.io/input-output-hk/hydra-node:0.15.0 \
   gen-hydra-key --output-file /keys/hydra
 
 # Verify keys were created
